@@ -12,13 +12,17 @@
     --blanquito: #FFFFFF;
 }
 
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .header-top{
     display: flex;
     flex-wrap: wrap;    
     justify-content: space-between;
     align-items: center;
     padding: 65px 165px;
-    border-style: dotted;
 }
 .nav-principal a{
     color: #242E52;
@@ -39,3 +43,131 @@
     padding: 12px 50px;
 }
 
+.separador-superior{
+    padding: 30px 0;
+}
+
+.section-hero{
+    display: flex;
+    padding: 0px 175px 50px;
+}
+
+.imagen-padel{
+    align-self: center;
+    padding-right: 50px;
+    
+}
+
+.textos-banner{
+    display: flex;
+    justify-content:flex-end;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    text-align: right;
+    gap: 10px;
+}
+
+.texto-grande-banner{
+    color: #232C50;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.texto-chico-banner{
+    font-size: 16.56px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.subtitulo {
+    background: var(--violetita);
+    color: var(--blanquito);
+    display: flex;
+    padding: 40px 40px;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.subtitulo_grande{
+    font-weight: bold;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 29px;
+    width: 450px;
+    height: 88px;
+}
+
+.subtitulo_chico{
+    font-weight: 500;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 15px;
+    width: 450px;
+    height: 88px;
+}
+
+/* Aca empieza el codigo para la parte de las tarjetas, debajo del banner de color Morado */
+  
+  .section-tarjetas {
+    padding: 40px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .tarjeta {
+    max-width: 530px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .numero {
+    background-color: #8b48bf;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 50px;
+    align-self: flex-start;
+  }
+  
+  .titulo {
+    font-weight: bold;
+    padding-top: 10px;
+  }
+  
+  .div-titulos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  @media (max-width: 480px) {
+    .section-tarjetas {
+      padding: 20px 0 10px 10px;
+    }
+    .tarjeta {
+      display: block;
+      position: relative;
+    }
+  
+    .numero {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  
+    .titulo {
+      background-color: rgba(139, 72, 191, 0.3);
+      padding: 10px 0 10px 120px;
+      border-top-left-radius: 200px;
+      border-bottom-left-radius: 200px;
+    }
+    .texto {
+      padding: 30px 28px 30px 44px;
+    }
+  }
+  
