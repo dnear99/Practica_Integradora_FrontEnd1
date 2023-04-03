@@ -243,3 +243,30 @@
   font-size: 13.18;
   padding: 12px 50px;
 }
+
+.widgets{
+  display: flex;
+  background-color: #1E1E26;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px 220px;
+}
+
+.logo-inferior{
+  padding-bottom: 50px;
+}
+
+.home-menu1 a,.home-menu2 a{
+  color: #FFFFFF;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.form-copyright input{
+  color: #1E1E26;
+  text-align: left;
+  border-radius: 100px;
+  background-color: #FFFFFF;
+  border-style: none;
+  padding: 12px 12px;
+}
