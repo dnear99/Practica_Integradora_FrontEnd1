@@ -113,6 +113,7 @@
   .section-tarjetas {
     padding: 40px 150px;
     display: flex;
+    background-color: #FAFAFA;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
@@ -171,3 +172,32 @@
     }
   }
   
+  /* Sección destacados / personas destacadas en la parte inferior, en 3 tarjetas con su nombre y descripción*/
+
+  .subtitulo_inferior{
+    color: #242E53;
+    font-size: 23px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .tarjetas_destacados{
+    padding: 0 50px;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .texto_tarjeta1, .texto_tarjeta2, .texto_tarjeta3{
+    background-color: #FAFAFA;
+  }
+
+
+.boton_more{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
