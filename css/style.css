@@ -209,6 +209,7 @@
 
 .div-more{
   text-align: center;
+  margin-top: 50px;
   margin-bottom: 200px;
 }
 
@@ -253,13 +254,24 @@
 }
 
 .logo-inferior{
+  padding-top: 20px;
   padding-bottom: 50px;
+  transform: scale(1.2);
+}
+
+.redes-sociales{
+  display: flex;
+  align-items: end;
+  padding-top: 20px;
+  transform: scale(1.2);
+  gap: 15px;
 }
 
 .home-menu1 a,.home-menu2 a{
   color: #FFFFFF;
   font-weight: 500;
-  line-height: 30px;
+  line-height: 40px;
+  font-weight: 400;
 }
 
 .form-copyright input{
@@ -269,4 +281,20 @@
   background-color: #FFFFFF;
   border-style: none;
   padding: 12px 12px;
+}
+
+.btn-go{
+  padding: 12px 25px;
+  border-radius: 100px;
+  border-style: none;
+  cursor: pointer;
+  background-color: var(--violetita);
+  color: #FAFAFA;
+}
+
+.form-copyright p{
+  padding-top: 65px;
+  font-size: 12px;
+  color:#8C8C94;
+  font-weight: 400px;
 }
