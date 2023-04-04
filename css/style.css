@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'Mitr', sans-serif;
+    font-family: 'Be Vietnam Pro', sans-serif;
     list-style-type: none;
     text-decoration: none;
     margin: 0;
@@ -39,7 +39,7 @@
     color: var(--blanquito);
     border-radius: 50px;
     font-weight: 500;
-    font-size: 13.18;
+    font-size: 12;
     padding: 12px 50px;
 }
 
@@ -64,17 +64,17 @@
     flex-wrap: wrap;
     padding-left: 40px;
     text-align: right;
-    gap: 10px;
+    gap: 5px;
 }
 
 .texto-grande-banner{
     color: #232C50;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bold;
 }
 
 .texto-chico-banner{
-    font-size: 16.56px;
+    font-size: 13px;
     font-weight: 500;
     padding-bottom: 30px;
 }
@@ -83,7 +83,7 @@
     background: var(--violetita);
     color: var(--blanquito);
     display: flex;
-    padding: 40px 40px;
+    padding: 40px 170px;
     justify-content:space-between;
     align-items: center;
 }
@@ -99,7 +99,7 @@
 }
 
 .subtitulo_chico{
-    font-weight: 500;
+    font-weight: 400;
     flex-direction: column;
     text-align: left;
     margin: 0 auto;
@@ -120,7 +120,7 @@
   }
   
   .tarjeta {
-    max-width: 530px;
+    max-width: 480px;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -144,6 +144,11 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+  }
+
+  .texto{
+    color:#B3B2B7;
+    font-weight: 400;
   }
   
   @media (max-width: 480px) {
@@ -178,33 +183,46 @@
     color: #242E53;
     font-size: 23px;
     padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 7rem;
     text-align: center;
     font-weight: bold;
   }
 
   .tarjetas_destacados{
+    display: flex;
     position: relative;
     text-align: center;
     padding: 0 50px;
+  }
+
+  .titulo_nombre{
+    font-weight: bold;
+    color: #3F4868;
+  }
+
+  .texto_tarjeta1, .texto_tarjeta2, .texto_tarjeta3{  
     display: flex;
-    margin-bottom: 30px;
+    flex-wrap: wrap;
+    padding-top: 55px;
+    background-color: #FAFAFA;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 20px;
   }
 
   .destacado{
     position: relative;
   }
 
-
-  .texto_tarjeta1, .texto_tarjeta2, .texto_tarjeta3{
-    padding-top: 55px;
-    background-color: #FAFAFA;
-  }
-
   .destacado img{
     position: absolute;
-    top: -20%;
+    top: -19%;
     left: 41.5%;
+  }
+
+  .texto_destacado{
+    display: flex;
+    color: #B9B9C1;
   }
 
 .div-more{
@@ -245,6 +263,8 @@
   padding: 12px 50px;
 }
 
+/* footer parte inferior de color azul oscuro */
+
 .widgets{
   display: flex;
   background-color: #1E1E26;
@@ -255,23 +275,21 @@
 
 .logo-inferior{
   padding-top: 20px;
-  padding-bottom: 50px;
-  transform: scale(1.2);
+  padding-bottom: 60px;
+  padding-left: -20px;
 }
 
 .redes-sociales{
   display: flex;
-  align-items: end;
   padding-top: 20px;
-  transform: scale(1.2);
   gap: 15px;
 }
 
 .home-menu1 a,.home-menu2 a{
   color: #FFFFFF;
-  font-weight: 500;
-  line-height: 40px;
   font-weight: 400;
+  line-height: 38px;
+  font-size: 13px;
 }
 
 .form-copyright input{
@@ -293,7 +311,9 @@
 }
 
 .form-copyright p{
-  padding-top: 65px;
+  display: flex;
+  padding-top: 100px;
+  padding-left: 40px;
   font-size: 12px;
   color:#8C8C94;
   font-weight: 400px;
