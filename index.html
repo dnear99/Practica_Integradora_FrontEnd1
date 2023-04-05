@@ -7,15 +7,14 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="container header-top">
         <div class="logo-superior">
-            <a href="#"><img src="img/logo.svg" alt="Logo Sportit"></a>
+            <a href="#"><img src="img/logo-superior.svg" alt="Logo Sportit"></a>
         </div>
         <nav class="nav-principal">
             <ul class="ul-nav-principal">
@@ -28,6 +27,7 @@
         </nav>
         <div class="btn-contact">
             <a href="#" class="banner-btn">Contact</a>
+            <img class="burger" src="img/burger.png" alt="" />
         </div>
     </header>
     <div class="separador">
@@ -35,12 +35,12 @@
     </div>
     <main>
         <section class="container section-hero">
-            <div>
+            <div class="div-img-padel">
                 <img src="img/padel-intro.png" alt="Padel Banner" class="imagen-padel">
             </div>
             <div class="textos-banner">
                 <div class="texto-grande-banner">
-                    <h1>LIVE: Follow the Telcel Huawei Mexico Open 2022 for free </h1>
+                    <h1>LIVE: Follow the Telcel Huawei Mexico Open 2022<br>for free </h1>
                 </div>
                 <div class="texto-chico-banner">
                     <p>The final Open of the 2022 World Padel Tour season is underway, don't miss out on any of the action!</p>
@@ -102,11 +102,11 @@
             <h2>Best of the month</h2>
         </div>
         <div class="tarjetas_destacados">
-            <div class="destacado">
+            <div class="destacado hidden-best">
                 <img src="img/avatar-sanyo.png" alt="Imagen Sanyo">
                 <div class="texto_tarjeta1">
-                    <p>Sanyo</p>
-                    <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris,
+                    <p class="titulo_nombre">Sanyo</p>
+                    <p class="texto_destacado">Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris,
                         ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis 
                         dis parturient montes, nascetur ridiculus mus. </p>
                 </div>
@@ -114,8 +114,8 @@
             <div class="destacado">
                 <img src="img/avatar.lebron.png" alt="Imagen Lebron" class="destacado_img2">
                 <div class="texto_tarjeta2">
-                    <p>Lebron</p>
-                    <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris,
+                    <p class="titulo_nombre">Lebron</p>
+                    <p class="texto_destacado">Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris,
                         ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis 
                         dis parturient montes, nascetur ridiculus mus. </p>
                 </div>
@@ -123,8 +123,8 @@
             <div class="destacado">
                 <img src="img/avatar-navarro.png" alt="Imagen Navarro">
                 <div class="texto_tarjeta3">
-                    <p>Navarro</p>
-                    <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris,
+                    <p class="titulo_nombre">Navarro</p>
+                    <p class="texto_destacado">Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris,
                     ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis 
                     dis parturient montes, nascetur ridiculus mus. </p>
                 </div>
@@ -136,13 +136,13 @@
         </section>
     </main>
     <footer>
-        <div class="footer-violeta">
+        <div class="container footer-violeta">
             <p>Get to know the best<br>teams of the year</p>
             <div class="go-for-it">
                 <a href="#" class="btn-go-for-it">Go for it</a>
             </div>
         </div>
-        <div class="widgets">
+        <div class="container widgets">
             <div class="logo-redes">
                 <a href="#"><img src="img/logo.svg" alt="Logo-empresa" class="logo-inferior"></a>
                 <div class="redes-sociales">
