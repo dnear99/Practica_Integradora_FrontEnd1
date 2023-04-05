@@ -247,7 +247,7 @@
   display: flex;
   background-color: #1E1E26;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   padding: 50px 220px;
 }
 
@@ -294,12 +294,16 @@
   color: #FAFAFA;
 }
 
+.copy-footer{
+  border-style: dotted;
+  display: flex;
+  gap: 90px;
+}
+
 .copyright{
   font-size: 12px;
   font-weight: 500;
   color: #8c8c94;
-  text-align: right;
-  
 }
 
 /* Media query con resolución mobile */
