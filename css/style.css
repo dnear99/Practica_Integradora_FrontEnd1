@@ -244,7 +244,6 @@
 /* footer parte inferior de color azul oscuro */
 
 .widgets{
-  display: flex;
   background-color: #1E1E26;
   flex-wrap: wrap;
   justify-content: center;
@@ -295,12 +294,12 @@
 }
 
 .copy-footer{
-  border-style: dotted;
   display: flex;
   gap: 90px;
 }
 
 .copyright{
+  text-align: right;
   font-size: 12px;
   font-weight: 500;
   color: #8c8c94;
@@ -440,17 +439,17 @@
   padding-right: 40px;
 }
 
-.widgets{
-  justify-content: center;
-  text-align: center;
+.copy-footer{
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.logo-redes{
+  padding: 200px;
   flex-direction: column-reverse;
 }
 
-.navegacion-footer{
-  gap: 150px;
-  flex-wrap: nowrap;
-  border-style: dotted;
-  padding-top: 10px;
+.home-menu1,.home-menu1{
+  align-items: center;
 }
-
 }
