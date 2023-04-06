@@ -285,12 +285,15 @@
   align-self: self-start;
 }
 
+
 .recibir-mails input{
   color: #1E1E26;
   border-radius: 100px;
-  background-color: #FFFFFF;
+  background-color: #FAFAFA;
   border-style: none;
-  padding: 12px 40px;
+  padding: 11px 10px;
+  width: 200px;
+  margin-right: 4px;
 }
 
 .btn-go{
@@ -304,7 +307,8 @@
 
 .copy-footer{
   display: flex;
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 40px;
   justify-content: center;
   gap: 70px;
   align-items:flex-start;
@@ -322,6 +326,11 @@
   align-items: left;
   flex-direction: column;
   gap: 40px;
+}
+
+.copyright{
+  margin-right: 260px;
+  padding-bottom: 20px;
 }
 
 /* Media query con resolución mobile */
@@ -504,6 +513,15 @@
 
 .recibir-mails{
   align-self: center;
+  text-align: center;
+}
+
+..recibir-mails input{
+  margin-right: 2px;
+}
+
+.copyright{
+  margin: 0 auto;
 }
 
 }
