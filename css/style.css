@@ -259,8 +259,8 @@
 .navegacion-footer{
   display: flex;
   flex-wrap: wrap;
+  border-style: dashed;
   gap: 150px;
-  
 }
 
 .home-menu1 a,.home-menu2 a{
@@ -293,10 +293,10 @@
 
 .copy-footer{
   display: flex;
-  padding: 20px 0;
+  padding: 50px 0;
   justify-content: center;
   gap: 70px;
-  align-items: center;
+  align-items:flex-start;
 }
 
 .copyright{
@@ -459,7 +459,7 @@
   margin-left: 5px;
 }
 
-.home-menu1,.home-menu1{
+.home-menu1,.home-menu2{
   align-items: center;
 }
 
