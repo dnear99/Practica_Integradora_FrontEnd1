@@ -19,8 +19,7 @@
 }
 
 .header-top{
-    display: flex;
-    flex-wrap: wrap;    
+    display: flex; 
     justify-content: space-between;
     align-items: center;
     padding: 65px 165px;
@@ -32,14 +31,38 @@
 
 .div-img-padel{
   background-image: url("../img/padel-intro.png");
-  width: 2030px;
+  background-repeat: no-repeat;
+  width: 2400px;
   height: 470px;
+}
+
+.logo-superior:hover{
+  transform: scale(1.05);
+  transition-duration: .2s;
 }
 
 .ul-nav-principal{
     display: flex;
     font-weight: 500;
     gap: 28px;
+}
+
+.ul-nav-principal li a:link,
+.ul-nav-principal li a:visited {
+  color: #343f68;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.ul-nav-principal li a:hover,
+.ul-nav-principal li  a:active {
+  color: rgba(36, 46, 82, 0.6);
+}
+.ul-nav-principal li:hover{
+  transform: scale(1.1  );
+  transition: .1s ease-in-out;
 }
 
 .burger {
@@ -53,10 +76,15 @@
     font-weight: 500;
     font-size: 12;
     padding: 12px 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
 }
 
-.separador-superior{
-    padding: 30px 0;
+.btn-contact:active {
+  transform: scale(1.03);
+}
+
+.btn-contact a:hover{
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.7);
 }
 
 .section-hero{
@@ -85,7 +113,7 @@
 }
 
 .texto-chico-banner{
-    font-size: 13px;
+    font-size: 17px;
     font-weight: 500;
     padding-bottom: 30px;
 }
@@ -117,6 +145,17 @@
     font-size: 15px;
     width: 450px;
     height: 88px;
+}
+
+.subtitulo_chico2{
+  font-weight: 400;
+  flex-direction: column;
+  text-align: left;
+  margin: 0 auto;
+  font-size: 15px;
+  width: 450px;
+  height: 88px;
+  display: none;
 }
 
 /* Aca empieza el codigo para la parte de las tarjetas, debajo del banner de color Morado */
@@ -216,6 +255,15 @@
   margin-bottom: 50px;
 }
 
+.div-more:active{
+  transform: scale(1.05);
+  transition: transform 0.1s ease;
+}
+
+.btn-more:hover{
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.7);
+}
+
 .btn-more{
   background-color: var(--violetita);
   color: var(--blanquito);
@@ -224,6 +272,8 @@
   font-size: 13.18;
   padding: 12px 50px;
 }
+
+
 
 .footer-violeta{
   align-items: center;
@@ -246,6 +296,26 @@
   font-weight: 500;
   font-size: 13.18;
   padding: 12px 50px;
+}
+
+.btn-go-for-it{
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.go-for-it:active {
+  transform: scale(1.03);
+}
+
+.go-for-it a:hover{
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.7);
+}
+
+.btn-go:active{
+  transform: scale(1.05);
+}
+
+.btn-go:hover{
+  box-shadow: 0 2px 12px rgba(133, 65, 121, 0.74);
 }
 
 /* footer parte inferior de color azul oscuro */
@@ -296,6 +366,12 @@
   margin-right: 4px;
 }
 
+.recibir-mails input::placeholder {
+  font-weight: bold;
+  opacity: 0.7;
+  color: #431e5e;
+}
+
 .btn-go{
   padding: 12px 25px;
   border-radius: 100px;
@@ -331,6 +407,24 @@
 .copyright{
   margin-right: 260px;
   padding-bottom: 20px;
+}
+
+.navegacion-footer li a:hover,
+.navegacion-footer li a:active {
+  color: rgba(214, 214, 214, 0.6);
+}
+.navegacion-footer li:hover{
+  transform: scale(1.03);
+  transition: .1s ease-in-out;
+}
+
+.redes-sociales img:hover{
+  transform: scale(1.1);
+}
+
+.logo-inferior:hover{
+  transform: scale(1.1);
+  transition-duration: .3s;
 }
 
 /* Media query con resolución mobile */
@@ -374,7 +468,9 @@
 
   .texto-grande-banner{
     padding-top: 55px;
+    padding-bottom: 30px;
     font-size: 30px;
+    font-weight: 400;
   }
 
   .texto-chico-banner{
@@ -412,8 +508,14 @@
   }
 
   .subtitulo_chico{
-    font-size: 15.5px;
-    padding-right: 40px;
+    display: none;
+  }
+
+  .subtitulo_chico2{
+    display: block;
+    font-size: 15px;
+    padding-bottom: 25px;
+    text-align: left;
   }
 
 
