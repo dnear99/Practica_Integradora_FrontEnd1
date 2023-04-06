@@ -206,7 +206,7 @@
 .div-more{
   text-align: center;
   margin-top: 50px;
-  margin-bottom: 200px;
+  margin-bottom: 50px;
 }
 
 .btn-more{
@@ -297,7 +297,9 @@
 .copy-footer{
   display: flex;
   padding-bottom: 5px;
-  
+  justify-content: center;
+  gap: 70px;
+  align-items: center;
 }
 
 .copyright{
