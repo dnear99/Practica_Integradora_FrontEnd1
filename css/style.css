@@ -247,7 +247,7 @@
   background-color: #1E1E26;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 50px 220px;
+  gap: 30px;
 }
 
 .logo-inferior{
@@ -266,6 +266,8 @@
   display: flex;
   flex-wrap: wrap;
   gap: 150px;
+  padding-top: 30px;
+  
 }
 
 .home-menu1 a,.home-menu2 a{
@@ -277,11 +279,10 @@
 
 .recibir-mails input{
   color: #1E1E26;
-  text-align: left;
   border-radius: 100px;
   background-color: #FFFFFF;
   border-style: none;
-  padding: 12px 12px;
+  padding: 12px 40px;
 }
 
 .btn-go{
@@ -295,7 +296,8 @@
 
 .copy-footer{
   display: flex;
-  gap: 90px;
+  padding-bottom: 5px;
+  
 }
 
 .copyright{
@@ -354,6 +356,10 @@
     width: 450px;
     margin-top: 50px;
     margin-bottom: 100px;
+  }
+
+  .imagen-padel{
+    max-width: 480px;
   }
 
   .subtitulo {
@@ -445,11 +451,36 @@
 }
 
 .logo-redes{
-  padding: 200px;
+  display: flex;
+  align-items: center;
   flex-direction: column-reverse;
+}
+
+.recibir-mails{
+  padding-top: 30px;
+}
+
+.btn-go{
+  margin-left: 5px;
 }
 
 .home-menu1,.home-menu1{
   align-items: center;
 }
+
+.redes-sociales{
+  gap: 60px;
+  padding: 40px 0;
+}
+
+.logo-inferior{
+  transform: scale(1.1);
+}
+
+.copyright{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+
 }
