@@ -12,6 +12,7 @@
     --blanquito: #FFFFFF;
 }
 
+
 .container{
     max-width: 1440px;
     margin: 0 auto;
@@ -27,6 +28,12 @@
 }
 .nav-principal a{
     color: #242E52;
+}
+
+.div-img-padel{
+  background-image: url("../img/padel-intro.png");
+  width: 2030px;
+  height: 470px;
 }
 
 .ul-nav-principal{
@@ -258,15 +265,19 @@
 
 .navegacion-footer{
   display: flex;
-  flex-wrap: wrap;
-  border-style: dashed;
   gap: 150px;
 }
 
 .home-menu1 a,.home-menu2 a{
   color: #FFFFFF;
+}
+
+.home-menu_1,.home-menu_2{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: #FFFFFF;
   font-weight: 400;
-  line-height: 38px;
   font-size: 13px;
 }
 
@@ -306,6 +317,13 @@
   color: #8c8c94;
 }
 
+.logo-redes{
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  gap: 40px;
+}
+
 /* Media query con resolución mobile */
 
 @media (max-width: 480px){
@@ -333,13 +351,20 @@
     display: block;
   }
 
+  .div-img-padel{
+    width: 540px;
+    transform: scale(0.78);
+  }
+
   .section-hero {
+    align-items: center;
     flex-direction: column;
     padding: 0 30px;
     margin-bottom: 55px;
   }
 
   .texto-grande-banner{
+    padding-top: 55px;
     font-size: 30px;
   }
 
@@ -347,9 +372,8 @@
     font-size: 15px;
   }
 
-  .div-img-padel{
-    text-align: center;
-  }
+
+  
 
   .div-img-padel img{
     width: 450px;
@@ -447,6 +471,7 @@
 .copy-footer{
   flex-direction: column-reverse;
   align-items: center;
+  gap: 40px;
 }
 
 .logo-redes{
@@ -464,8 +489,8 @@
 }
 
 .redes-sociales{
-  gap: 60px;
-  padding: 40px 0;
+  gap: 65px;
+  padding: 12px 0;
 }
 
 .logo-inferior{
